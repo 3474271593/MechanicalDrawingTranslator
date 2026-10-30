@@ -1,0 +1,64 @@
+# Python / IDE
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.idea/
+.vscode/
+.env
+.env.*
+*.pem
+*.key
+# Runtime and private data
+data/
+user_data/
+inputs/
+outputs/
+logs/
+tmp/
+*.log
+*.jsonl
+*.db
+*.sqlite*
+*.mdt.json
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.csv
+# Test/development records
+tests/
+evaluation/
+benchmark*/
+AGENTS.md
+.superpowers/
+docs/superpowers/
+# Knowledge packs require separate public-rights review
+mechanical_drawing_translator/resources/translation/**/*.json
+mechanical_drawing_translator/resources/translation/*.json
+# Models, fonts and bundles
+*.onnx
+*.bin
+*.model
+*.safetensors
+*.pt
+*.pth
+*.otf
+*.ttf
+*.exe
+*.dll
+*.zip
+*.rar
+*.7z
+*.argosmodel
+build/
+dist/
+*.egg-info/

@@ -1,0 +1,11 @@
+PySide6-Essentials==6.12.0
+PySide6-Pdf==6.12.0.140
+rapidocr==3.10.0  # OCR 检测、方向分类及文字识别；wheel 自带默认 ONNX 权重
+onnxruntime==1.31.0  # 仅使用 CPUExecutionProvider 本地推理
+pdfplumber==0.11.10  # 提取可见 PDF 原生文字及页面坐标
+pypdfium2==5.14.0  # 将 PDF 独立渲染为 OCR 图像
+pypdf==6.10.0  # 合并透明矢量标注层；BSD-3-Clause，保留原 PDF 页面内容
+Pillow==12.3.0  # 读取图像和绘制验证框
+psutil==7.1.3  # 验证脚本采样进程内存
+ctranslate2==4.8.3  # 本地英中翻译 CPU 推理；MIT
+sentencepiece==0.2.1  # Argos/OPUS 模型本地分词；Apache-2.0

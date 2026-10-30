@@ -1,0 +1,124 @@
+QMainWindow, QWidget#previewPanel, QWidget#sidePanel {
+    background: #F6F8FA;
+    color: #172B3A;
+}
+
+QMenuBar, QMenu, QToolBar, QStatusBar {
+    background: #FFFFFF;
+    color: #172B3A;
+}
+
+QMenuBar {
+    border-bottom: 1px solid #DDE4EA;
+    padding: 3px 7px;
+}
+
+QMenuBar::item, QMenu::item {
+    padding: 6px 12px;
+}
+
+QMenuBar::item:selected, QMenu::item:selected {
+    background: #EAF2FA;
+}
+
+QToolBar#mainToolbar {
+    border-bottom: 1px solid #DDE4EA;
+    spacing: 6px;
+    padding: 7px 10px;
+}
+
+QToolButton, QPushButton {
+    background: #FFFFFF;
+    color: #173B5D;
+    border: 1px solid #CBD7E2;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+
+QToolButton:hover, QPushButton:hover {
+    background: #EAF2FA;
+    border-color: #6D9BC2;
+}
+
+QToolButton:pressed, QPushButton:pressed {
+    background: #DCEAF6;
+}
+
+QToolButton:disabled, QPushButton:disabled {
+    background: #F1F3F5;
+    color: #8996A1;
+    border-color: #E1E6EA;
+}
+
+QCheckBox:disabled {
+    color: #8996A1;
+}
+
+QToolButton:focus, QPushButton:focus, QListWidget:focus,
+QTableWidget:focus, QSpinBox:focus {
+    border: 2px solid #2563A6;
+}
+
+QLabel#panelHeading {
+    color: #173B5D;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+QLabel#sectionHeading {
+    color: #36536B;
+    font-weight: 600;
+}
+
+QLabel#emptyState {
+    color: #5A6E7D;
+    line-height: 1.4;
+}
+
+QFrame#infoFrame, QListWidget#pageList, QTableWidget {
+    background: #FFFFFF;
+    border: 1px solid #DDE4EA;
+    border-radius: 4px;
+}
+
+QFrame#infoFrame {
+    padding: 9px;
+}
+
+QListWidget::item {
+    padding: 8px;
+}
+
+QListWidget::item:selected, QTableWidget::item:selected {
+    background: #DCEAF6;
+    color: #173B5D;
+}
+
+QHeaderView::section {
+    background: #EAF0F5;
+    color: #36536B;
+    border: 0;
+    border-right: 1px solid #DDE4EA;
+    border-bottom: 1px solid #DDE4EA;
+    padding: 8px;
+    font-weight: 600;
+}
+
+QGraphicsView#drawingView {
+    background: #DDE4E9;
+    border: 1px solid #C8D3DB;
+}
+
+QSplitter::handle {
+    background: #D5DEE6;
+    width: 5px;
+}
+
+QStatusBar {
+    border-top: 1px solid #DDE4EA;
+    padding: 3px;
+}
+
+QStatusBar QLabel {
+    padding: 0 10px;
+}
